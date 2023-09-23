@@ -1,0 +1,8 @@
+export {default as Gallery} from "./Gallery/Gallery"
+export {default as Hero} from "./Hero/Hero"
+export {default as TopHeader} from "./Headers/TopHeader/TopHeader"
+export {default as BottomHeader} from "./Headers/BottomHeader/BottomHeader"
+export {default as CallToAction} from "./CallToAction/CallToAction"
+export {default as Featured} from "./Featured/Featured"
+export {default as Essentials} from "./Essentials/Essentials"
+export {default as Links} from "./Links/Links"
