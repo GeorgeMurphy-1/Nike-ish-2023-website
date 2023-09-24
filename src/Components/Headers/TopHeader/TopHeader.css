@@ -8,11 +8,6 @@
   margin: 0;
   padding: 0;
 }
-img {
-  width: 150px;
-  height: 50px;
- margin-top: 0.3em;
-}
 
 .ebikerepair__topheader-skip {
   text-decoration: none;
@@ -31,7 +26,7 @@ img {
   padding: 5px 9.8px 5px 10px;
   justify-content: center;
   align-items: center;
-  margin: 0.3em 0;
+  margin: auto;
   
 }
 
@@ -56,7 +51,7 @@ img {
   text-decoration: none;
   flex-direction: row;
   padding: 10px 6.125px 10px 12px;
-  border-right: #111 solid;
+ 
   
 
 }

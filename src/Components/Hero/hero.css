@@ -1,0 +1,47 @@
+div p{
+    display: flex;
+   
+    height: 17px;
+    flex-direction:     row;
+    justify-content: center;
+    font-family: roboto;
+
+}
+.ebikerepair__hero-img{
+    max-width: 100%;
+
+}
+
+.ebikerepair__hero_greeting-sub{
+color: #111;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 218.182% */
+color: #111;
+font-family: Helvetica Neue;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+text-transform: capitalize;
+}
+.ebikerepair__hero_greeting-main{
+
+
+height: 17px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #111;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 15px;
+font-style: normal;
+font-weight: bold;
+line-height: 16px; /* 106.667% */
+text-transform: capitalize;
+margin-bottom: -0.9em;
+}

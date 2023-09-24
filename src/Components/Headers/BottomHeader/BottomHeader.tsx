@@ -1,26 +1,52 @@
 import './BottomHeader.css'
+import { DotLottiePlayer, Controls } from '@dotlottie/react-player';
+import '@dotlottie/react-player/dist/index.css'
+
+import searchIcon from './../../../assets/searchIcon.lottie'
+import fb from "../../../assets/facebookshare.lottie"
+import ig from "../../../assets/InstagramShare.lottie"
+
 function BottomHeader() {
   return (
     <div className='ebikerepair__bottomheader-container'>
     <div className='ebikerepair__bottomheader_logo-container'>
-      logo
+      Parts And Repairs
     </div>
 <div className='ebikerepair__bottomheader-Links'>
-   <div>One</div>
-   <div>Two</div>
-   <div>Three</div>
-   <div>Four</div>
-   <div>Five</div>
-   <div>Six</div>
+   <div><a href='#'>Parts</a></div>
+   <div><a href='#'>Service</a></div>
+   <div><a href='#'>News</a></div>
+   <div><a href='#'>Events</a></div>
    </div>
-   <div>
-    <img src="#" alt="SearchIcon" />
+     <div className='ebikerepair__bottomheader__search-container'>
+   <div className='ebikerepari__bottomheader__search-icon'>
+   <DotLottiePlayer
+        src={searchIcon}
+        autoplay
+        loop
+      >
+      
+      </DotLottiePlayer></div>
    <input type="text" placeholder='Search' />
    </div>
     
-    <div>
-      <img src="#" alt="Heart" />
-      <img src="#" alt="Bag" />
+    <div className='ebikerepair__bottomheader-container-search'>
+    <span className='ebikerepari__bottomheader__search-icon'>
+   <DotLottiePlayer
+        src={fb}
+        autoplay
+        loop
+      >
+      
+      </DotLottiePlayer></span>
+      <span className='ebikerepari__bottomheader__search-icon'>
+   <DotLottiePlayer
+        src={ig}
+        autoplay
+        loop
+      >
+      
+      </DotLottiePlayer></span>
     </div>
     </div>
   )

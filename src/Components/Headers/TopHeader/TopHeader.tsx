@@ -12,10 +12,13 @@ function TopHeader() {
 
       <div className="ebikerepair__topheader-Links">
         <a href="#" className="ebikerepair__topheader-Links-findStore">Find a Store</a>
+        <span class="horizontalBar">|</span>
 
         <a href="#" className="margin_header_links">Help</a>
+        <span class="horizontalBar">|</span>
 
         <a href="#" className="margin_header_links">Join Us</a>
+        <span class="horizontalBar">|</span>
 
         <a href="#" className="margin_header_links">Sign In</a>
       </div>
