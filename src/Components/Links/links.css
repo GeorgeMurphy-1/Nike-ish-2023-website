@@ -1,4 +1,17 @@
-.ebikerepair__links-container{
-    display: flex;
+.ebikerepair__links-container {
+  display: flex;
+  justify-content: space-around;
+}
 
+.ebikerepair__links-container div ul {
+  list-style: none;
+
+}
+
+.ebikerepair__links-container div ul li{
+    display: flex;
+    width: 76.669px;
+    height: 17px;
+    flex-direction: column;
+   
 }
