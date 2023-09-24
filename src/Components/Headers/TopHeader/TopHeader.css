@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.ebikerepair__topheader-container {
+  display: flex;
+  justify-content: space-between;
+
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 150px;
+  height: 50px;
+ margin-top: 0.3em;
+}
+
+.ebikerepair__topheader-skip {
+  text-decoration: none;
+  font-style: none;
+  
+  color: #111;
+  font-family: roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 200% */
+  background: #fff;
+  display: flex;
+  width: 146.859px;
+  height: 26px;
+  padding: 5px 9.8px 5px 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3em 0;
+  
+}
+
+.margin_header_links {
+  margin-left: 0em;
+
+
+
+}
+.ebikerepair__topheader-Links{
+  display: flex;
+  align-items: center;
+}
+.ebikerepair__topheader-Links > * {
+   
+  color: #111;
+  font-family:  Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 127.273% */
+  text-decoration: none;
+  flex-direction: row;
+  padding: 10px 6.125px 10px 12px;
+  border-right: #111 solid;
+  
+
+}
+
+@media screen and (max-width:700px) {
+  .ebikerepair__topheader-skip{
+    display: none;
+  }
+  
+}
+
+
+@media screen and (max-width:550px) {
+ 
+  
+}
