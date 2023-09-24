@@ -6,13 +6,13 @@ const Body = ()=> {
   return (
     <div>
       <Hero />
-      {/* <CallToAction />
+      <CallToAction />
       <Gallery />
       <Featured />
       <Gallery />
       <Featured />
       <Essentials />
-      <Links /> */}
+      <Links />
     </div>
   );
 }

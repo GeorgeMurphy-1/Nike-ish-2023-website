@@ -7,6 +7,10 @@ div p{
     font-family: roboto;
 
 }
+
+.ebikerepair__hero{
+    padding: 0 2em 0em 2em;
+}
 .ebikerepair__hero-img{
     max-width: 100%;
 

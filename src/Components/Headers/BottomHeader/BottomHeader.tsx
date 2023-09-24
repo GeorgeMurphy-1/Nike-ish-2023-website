@@ -1,10 +1,10 @@
 import './BottomHeader.css'
-import { DotLottiePlayer, Controls } from '@dotlottie/react-player';
+import { DotLottiePlayer } from '@dotlottie/react-player';
 import '@dotlottie/react-player/dist/index.css'
 
 import searchIcon from './../../../assets/searchIcon.lottie'
-import fb from "../../../assets/facebookshare.lottie"
-import ig from "../../../assets/InstagramShare.lottie"
+import fb from "../../../assets/facebookshare.lottie";
+import ig from "../../../assets/InstagramShare.lottie";
 
 function BottomHeader() {
   return (

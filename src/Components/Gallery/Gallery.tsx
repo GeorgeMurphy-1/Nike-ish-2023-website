@@ -3,7 +3,7 @@ import './gallery.css'
 
 function Gallery() {
   return (
-    <div>
+    <div className='ebikerepair__gallery-container'>
       Gallery
     </div>
   )

@@ -1,0 +1,34 @@
+.ebikerepair__essential__container{
+    display: flex    ;
+   
+   justify-content: space-between;
+   padding: 1.5em;
+}
+
+.ebikerepair__essential__container_img-container img{
+    width: 300px;
+    padding: 0;
+}
+
+.ebikerepair__essential__container_img-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+}
+.ebikerepair__essential__container_img-container span{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    
+    
+    
+}
+
+.ebikerepair__essential__container_img-container img{
+    position: relative;
+}

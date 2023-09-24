@@ -1,0 +1,58 @@
+.ebikerepair__calltoaction_container {
+}
+
+.ebikerepair__calltoaction_heading-sub {
+}
+
+.ebikerepair__calltoaction__heading-main {
+  color: #111;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 107.143% */
+  text-transform: uppercase;
+  margin: 0;
+
+}
+
+.ebikerepair__calltoaction__body {
+  color: #111;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  display: inline-flex;
+  padding: 0px 248.453px 0px 248.547px;
+  align-items: flex-start;
+}
+
+.ebikerepair__calltoaction__btn {
+    display: flex;
+    padding: 0.5em;
+    margin: 0 0.75em;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Helvetica Neue;
+   
+text-align: center;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 160% */
+}
+.ebikerepair__calltoaction__btn_shop {
+}
+
+.ebikerepair__calltoaction__btn-container {
+  display: flex;
+ justify-content: center;
+ padding: 2em;
+ 
+}
